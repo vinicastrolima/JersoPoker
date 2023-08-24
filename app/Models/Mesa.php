@@ -1,12 +1,13 @@
 <?php
 
+
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 class Mesa extends Model
 {
-    protected $fillable = ['nome_da_edicao', 'horario_inicio', 'horario_fim'];
+    protected $fillable = ['nome_da_edicao', 'horario_inicio', 'horario_fim', 'rake'];
 
     public function jogadores()
     {
