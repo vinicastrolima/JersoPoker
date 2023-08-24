@@ -14,7 +14,7 @@ class CreateMesasTable extends Migration
             $table->string('nome_da_edicao');
             $table->dateTime('horario_inicio');
             $table->dateTime('horario_fim')->nullable();
-            $table->decimal('saldo_geral', 10, 2)->default(0.00);
+            $table->decimal('rake', 10, 2)->default(0.00);
             $table->timestamps();
         });
     }
